@@ -1,0 +1,55 @@
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type="submit"] {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.container {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+form {
+    width: 100%; /* Adjust the percentage as needed */
+    margin: 0 auto; /* This will center the form on the page */
+}
+
+h1 {
+    text-align: center;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+    display: none;
+    background: #f1f1f1;
+    color: #000;
+    position:relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+
+/* Add a red text color when the requirements are not met */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+}
